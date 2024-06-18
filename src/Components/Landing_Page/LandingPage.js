@@ -18,12 +18,12 @@ const Landing_Page = () => {
                         </span>
                     </h1>
 
-                    <div class="blob-cont"> {/* Container for blob shape */}
-                        <div class="blue blob"></div> {/* Blue blob shape */}
+                    <div className="blob-cont"> {/* Container for blob shape */}
+                        <div className="blue blob"></div> {/* Blue blob shape */}
                     </div>
 
-                    <div class="blob-cont"> {/* Another container for blob shape */}
-                        <div class="blue1 blob"></div> {/* Blue1 blob shape */}
+                    <div className="blob-cont"> {/* Another container for blob shape */}
+                        <div className="blue1 blob"></div> {/* Blue1 blob shape */}
                     </div>
 
                     <h4>
@@ -31,7 +31,7 @@ const Landing_Page = () => {
                     </h4> {/* Description text for the Landing Page */}
 
                     <a href="#services"> {/* Link to scroll down to services section */}
-                        <button class="button">Get Started</button> {/* Button to navigate to services section */}
+                        <button className="button">Get Started</button> {/* Button to navigate to services section */}
                     </a>
 
                 </div>

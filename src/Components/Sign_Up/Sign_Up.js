@@ -13,7 +13,7 @@ const Sign_Up = () => {
 
     const register = async (e) => {
         e.preventDefault();
-
+        
         // API Call
         const response = await fetch(`${API_URL}/api/auth/register`, {
             method: 'POST',
